@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animal Dictionary</title>
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar-material">
+			<div class="nav-wrapper">
+				<a href="/" class="brand-logo"><i class="material-icons">add</i> Animal Search </a>
+				<ul class="right">
+						<li><a href="/favorites">Favorites</a></li>
+						<li><a href="/favorites/new">Add Animals</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+<main>
+	<%- body %>
+</main>
+<footer class="page-footer">
+	 	<div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                    	<h5 class="white-text">
+                    		Built with <i class="material-icons">favorite</i> by Kelly Park
+                       	</h5>
+                    </div>
+                 </div>
+               </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

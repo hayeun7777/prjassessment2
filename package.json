@@ -1,0 +1,30 @@
+{
+  "name": "assessment_kp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "method-override": "^3.0.0",
+    "pg": "^7.8.0",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayeun7777/prjassessment2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayeun7777/prjassessment2/issues"
+  },
+  "homepage": "https://github.com/hayeun7777/prjassessment2#readme"
+}

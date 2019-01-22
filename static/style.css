@@ -1,0 +1,26 @@
+body{
+	font-family: 'Fira Sans', sans-serif;
+}
+img{
+	max-height: 300px;
+	max-width: 300px;
+}
+.home{
+	text-align: center;
+}
+.animalCarousel{
+	margin: 0 auto;
+	text-align: center;
+}
+.page-footer{
+	text-align: center;
+}
+.extinctTrue{
+	color: red;
+}
+.extinctFalse{
+	color: black;
+}
+.italic{
+	font-style: italic;
+}

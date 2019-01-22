@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="col s12 home">
+		<h4>Welcome to Animal Dictionary!</h4>
+	</div>
+
+		<div class="col s12 animalCarousel">
+		<div class="carousel carousel-slider">
+		    <a class="carousel-item" href="#one!"><img src="https://res.cloudinary.com/kellyp/image/upload/v1548200036/extinctanimal2.jpg"></a>
+		    <a class="carousel-item" href="#two!"><img src="https://res.cloudinary.com/kellyp/image/upload/v1548200036/extinctanimal.jpg"></a>
+		</div>
+	</div>
+</div>
+
+<script>
+$(document).ready(function(){
+   $('.carousel.carousel-slider').carousel({ 
+	    fullWidth: true
+	  });
+  	autoplay();
+});
+
+  	function autoplay(){
+	$('.carousel.carousel-slider').carousel('next');
+	setTimeout(autoplay, 3000);
+	}
+
+</script>
